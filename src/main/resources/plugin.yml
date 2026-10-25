@@ -1,0 +1,11 @@
+name: AutoReplant
+version: '${version}'
+main: dev.autoreplant.AutoReplantPlugin
+api-version: '26.3'
+description: 다 자란 작물을 캐면 인벤토리의 씨앗을 하나 써서 자동으로 다시 심어줍니다.
+authors: [yunseungjin]
+
+permissions:
+  autoreplant.use:
+    description: 수확 시 자동으로 다시 심기
+    default: true
